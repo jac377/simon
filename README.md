@@ -6,6 +6,7 @@ Be able to practice and showcase what I am learning as I step through the proces
 
 ## Project Status
 
+Simon HTML and CSS is done. Now, the website has the more or less visuals (2/16/2023).
 Finished, and a final pushed to the server was done on 2/8/2023.
 ## What I have learned so far
 
