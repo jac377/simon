@@ -9,7 +9,7 @@ header {
 }
 
 main {
-    flex: 1 calc(100hv - 110px);
+    flex: 1 calc(100vh - 110px);
     display: flex;
     flex-direction: column;
     align-items: center;
