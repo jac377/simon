@@ -9,6 +9,8 @@ Be able to practice and showcase what I am learning as I step through the proces
 Finished, and a final pushed to the server was done on 2/8/2023.
 ## What I have learned so far
 
+2/16/2023 - After copying and seeing how to app changes, I was able to discover that I made a few mistakes that I wasn't aware of. I used the HTML debugger, which helped me see where I messed up. I as able to review the structure of Simon, and how it works with CSS and Bootstrap.
+
 2/7/2023 - While I was working on the ***play.html*** and ***scores.html***, I explored a little more between `<table>` and the `<thead>`. Both are the same, but when we include the later one, it becomes a more structured table. 
 `<th>` vs `<td>`. The first one is for headings, the second one is for the body of the table.
 
