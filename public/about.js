@@ -1,7 +1,7 @@
 function displayPicture() {
     const random = Math.floor(Math.random() * 1000);
     fetch(`https://picsum.photos/v2/list?page=${random}&limit=1`)
-        .then((reponse) => Response.json())
+        .then((reponse) => response.json())
         .then((data) => {
             const containerEl = document.querySelector('#picture');
 
@@ -17,7 +17,7 @@ function displayPicture() {
 
 function displayQuote(data) {
     fetch('https://api.quotable.io/random')
-        .then((reponse) => Response.json())
+        .then((reponse) => response.json())
         .then((data) => {
             const containerEl = document.querySelector('#quote');
 
