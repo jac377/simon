@@ -10,6 +10,15 @@ Simon HTML and CSS is done. Now, the website has the more or less visuals (2/16/
 Finished, and a final pushed to the server was done on 2/8/2023.
 ## What I have learned so far
 
+3/21/2023 - Today, I found a bug in the deployFiles.sh. When looking at Prof. Jensen's code, I noticed that his deployService file didn't not create a public folder. This was the issue I was having. How did I spot it?
+I login to the remote machine with the following command:
+```
+    ssh -i [key pair file] ubuntu@[yourdomainnamehere]
+```
+where *[key pair file]* was replaced by *~/keys/production.pem*. Then, I deleted the public folder, and edited the deployFiles.sh to create and do the right thing. After that, the server was up and running. 
+
+More over, I now know how I can start working on my startup. Using express to communicate with APIs is so much easier than doing through HTTP. I now need to look into it more deeply as I work my server.
+
 3/4/2023 - When I started writing JS code for this project, I wasn't completely sure how everything would work, but now I know a few commands. For example:
 
 ```javascript
