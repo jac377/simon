@@ -21,7 +21,7 @@ apiRouter.post('/score', (req, res) => {
 });
 
 app.use((_req, res) => {
-    res.sendFile('./public/public/index.html');
+    res.sendFile('index.html', { root: 'public' });
 });
 
 app.listen(port, () => {
